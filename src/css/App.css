@@ -1,0 +1,61 @@
+.App {
+    text-align: center;
+}
+
+table, tbody {
+    width: 100%;
+}
+
+td {
+    margin-left: 50px;
+}
+
+#room-sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: #DEDEDE;
+    padding: 80px 20px;
+}
+
+#room-name {
+    position: fixed;
+    top: 0;
+    left: 260px;
+}
+
+#auth-container {
+    margin: 20px 20px;
+}
+
+section.room-messages {
+    position: fixed;
+    top: 80px;
+    bottom: 30px;
+    left: 260px;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.room.active {
+    background-color: black;
+    color: white;
+}
+
+.user-greeting {
+    margin-right: 10px;
+}
+
+.new-message-container {
+    position: fixed;
+    left: 250px;
+    right: 2px;
+    bottom: 0;
+}
+
+
+
+
+
+
